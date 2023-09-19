@@ -7,7 +7,7 @@ yt = YouTube(link)
 
 print("Title: ", yt.title)
 print("Views: ", yt.views)
-print("Publish Date: ",yt.publish_date)
+print("Publish Date: ", yt.publish_date)
 
 res = int(input("1.Get Highest Resolution\n2.Get Lowest Resolution\nInput:"))
 
